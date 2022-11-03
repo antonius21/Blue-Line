@@ -11,15 +11,17 @@ namespace Blue_Line.Model
         private int _routeId;
         private string _name;
         private string _description;
-        private Station _stationDeparture;
-        private Station _stationArrival;
-        private Station[] stations;
+        private RouteStation _stationDeparture;
+        private RouteStation _stationArrival;
+        private RouteStation[] stations;
         private DateTime _departureTime;
         private DateTime _ArravialTime;
-        private DateTime _routeTime;
+        private int _regularityDays;
 
         public Route()
         {
+
         }
+       
     }
 }
